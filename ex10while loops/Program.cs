@@ -20,7 +20,24 @@
             //promt for and get user choice
             Console.WriteLine("please enter a number shown");
             input = int.Parse(Console.ReadLine());
-            Console.WriteLine(input);
+            //Console.WriteLine(input);
+            if (input == 1 )
+                {
+                    Console.WriteLine("you have started a new game");
+                }
+            else if (input == 2 )
+                {
+                    Console.WriteLine("which game do you wish to load ");
+                }
+            else if (input == 3 )
+                {
+                    Console.WriteLine("the options are to:");
+                }
+            else if (input >= 5 || input < 1)
+                {
+                    Console.WriteLine("not a valid answer, renter a valid answer");
+                }
+            Console.WriteLine();
         }
         }
     }
